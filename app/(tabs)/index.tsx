@@ -18,8 +18,8 @@ export default function HomeScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
+        <ThemedText type="title">B2B PRODUCT HUB</ThemedText>
+
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
@@ -80,6 +80,13 @@ export default function HomeScreen() {
 
 const styles = StyleSheet.create({
   titleContainer: {
+    borderStyle: 'solid',
+    borderColor: '#A1CEDC',
+    borderWidth: 1,
+    padding: 25,
+    fontSize: 5,
+    textAlign: 'center',
+    justifyContent: 'center',
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
