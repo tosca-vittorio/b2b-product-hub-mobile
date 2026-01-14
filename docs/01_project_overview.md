@@ -139,3 +139,11 @@ Contiene le risorse del progetto come ad esempio Fonts e Immagini
 
 #### 4.10.11 app (folder)
 La cartella app permette di indirizzare verso schermate/pagine diverse (similmente a Next.js). All'interno di questa cartella vi è una sub-folder chiamata "(tabs)" che rappresenta i gruppi di schede dell'applicativo mobile per gestire i relativi layout.
+
+### 4.11 Repohygiene (reinizialize project)
+Adesso è consigliabile usare lo script di reset del progetto, fornito da Expo, per fare pulizia di file inutili. In questo modo si imposterà il progetto con il codice minimo e indispensabile; è necessario stoppare l'applicazione se è in esecuzione e successivamente inserire il seguente comando nel terminale:
+```bash
+npm run reset-project
+```
+
+Verrà richiesta una conferma per confermare l'operazione di pulizia ed eliminazione di file e cartelle boilerplate.
